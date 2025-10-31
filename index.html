@@ -3,69 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Filmes</title>
+    <title>Lumiere filmes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header>
+        <div class="cabeca">
+            <img src="logo.png" alt="">
+            <nav>
+                <a href="#destaque">Destaque</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#premiados">Premiados</a>
+                <a href="#generos">Gêneros</a>
+                <a href="#contato">Contatos</a>
+            </nav>
+
+        </div>
         <h1>Lumiere Filmes</h1>
         <h2>da imaginação para o telão dos cinemas</h2>
     </header>
     <main>
         <section id="destaque">
             <h2>Destaque da semana</h2>
-            <div id="filme_destque">
+            <div id="filme_destaque">
                 <img src="https://br.web.img3.acsta.net/pictures/14/10/31/20/39/476171.jpg" alt="poster">
-                <h3>Interestelar</h3>
-                <p>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</p>
+                <div>
+                    <h3>Interestelar</h3>
+                    <p>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</p>
+                    <ul>
+                        <li>Oscar de Melhores Efeitos Visuais 2015</li>
+                        <li>Prêmio BAFTA de Cinema: Melhores Efeitos Visuais</li>
+                        <li>Critics' Choice Awards: Prêmio MVP</li>
+                        <li>Critics' Choice Award: Melhor Filme de Ficção Científica/Terror</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="catalogo">
             <h2>Catálogo</h2>
             <div id="grade">
                 <div class="card">
-                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSfHx1UfI-rLXi4o0yxWfkl8LzNInbs8JZCmU841W7tAjNrlDlDIG_ROot3axC__zUtVs2F" alt="poster">
-                    <h3><a href="https://www.google.com/search?client=firefox-b-d&sa=X&sca_esv=eb6861a8f39dbc11&sxsrf=AE3TifPJtrVT5F2D3PkmopOa68sWX-pTEA:1761790881351&q=Perdido+em+Marte&stick=H4sIAAAAAAAAAONgFuLSz9U3MDHOrkouUuIGsQ2NLE2rzC21JLKTrfQLUvMLclKBVFFxfp5Vbn5ZZmrxIlaBgNSilMyUfIXUXAXfxKKSVADsftziSAAAAA&ved=2ahUKEwiO6Zq97sqQAxWfuJUCHeesPUgQgOQBegQIMBAq&biw=671&bih=643&dpr=1" target="_blank">Perdido em Marte</a></h3>
+                    <a href="https://www.google.com/search?q=Perdido+em+Marte&client=firefox-b-d&sca_esv=eb6861a8f39dbc11&biw=671&bih=643&sxsrf=AE3TifMIA_I4BiNh-jsMXfLkvaAPIh2w5A%3A1761793579162&ei=K9YCacLNCfGK5OUPg5-S4Qc&ved=0ahUKEwiCj9DD-MqQAxVxBbkGHYOPJHwQ4dUDCBM&uact=5&oq=Perdido+em+Marte&gs_lp=Egxnd3Mtd2l6LXNlcnAiEFBlcmRpZG8gZW0gTWFydGUyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyChAAGLADGNYEGEcyDRAAGIAEGLADGEMYigUyDRAAGIAEGLADGEMYigUyDRAAGIAEGLADGEMYigUyDRAAGIAEGLADGEMYigVIogpQAFgAcAF4AZABAJgBAKABAKoBALgBA8gBAJgCAaACUpgDAIgGAZAGDJIHATGgBwCyBwC4BwDCBwM1LTHIB0g&sclient=gws-wiz-serp" target="_blank">
+
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSfHx1UfI-rLXi4o0yxWfkl8LzNInbs8JZCmU841W7tAjNrlDlDIG_ROot3axC__zUtVs2F" alt="poster">
+                        <h3>Perdido em Marte</h3>
+
+                    </a>
                     <p>2015</p>
                     <p>Ficção científica/Aventura</p>
                 </div>
                 
                 
                 <div class="card">
-                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRZ-7ukgPqnfUgOwXxlujHcATJVb7Syi6wQ4P9BJf0w2GUAX5yUvAqG-u0ffmo5NAJzKh1c" alt="poster">
-                    <h3><a href="https://www.google.com/search?client=firefox-b-d&sa=X&sca_esv=eb6861a8f39dbc11&sxsrf=AE3TifO4f_ZBqwB6pIixmig_tPwe3hrZeA:1761791110738&q=Doutor+Estranho&stick=H4sIAAAAAAAAAONgFuLUz9U3MC0rrqhS4gYxDQ0Ky02qkrQkspOt9AtS8wtyUoFUUXF-nlVufllmavEiVn6X_NKS_CIF1-KSosS8jHwAeRG34UYAAAA&ved=2ahUKEwi6xsuq78qQAxVIrJUCHWH8JRYQgOQBegQIPBAY&biw=671&bih=643&dpr=1" target="_blank">Doutor Estranho</a></h3>
+                    <a href="https://www.google.com/search?q=doutor+estranho+filme&client=firefox-b-d&sca_esv=eb6861a8f39dbc11&biw=1352&bih=643&sxsrf=AE3TifMJFKFTp2g6ZAmAWmVTHsRv11LFyg%3A1761793508072&ei=5NUCadqXBKX25OUPqqSbkAU&ved=0ahUKEwjamd2h-MqQAxUlO7kGHSrSBlIQ4dUDCBM&uact=5&oq=doutor+estranho+filme&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWRvdXRvciBlc3RyYW5obyBmaWxtZTIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzINEAAYgAQYsAMYQxiKBTINEAAYgAQYsAMYQxiKBTINEAAYgAQYsAMYQxiKBTINEAAYgAQYsAMYQxiKBTIOEAAYsAMY5AIY1gTYAQEyDhAAGLADGOQCGNYE2AEBMg4QABiwAxjkAhjWBNgBATIWEC4YgAQYsAMYQxjUAhjIAxiKBdgBATIWEC4YgAQYsAMYQxjUAhjIAxiKBdgBATITEC4YgAQYsAMYQxjIAxiKBdgBATITEC4YgAQYsAMYQxjIAxiKBdgBAUjYEFDQDljQDnACeAGQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgKgAmaYAwCIBgGQBhO6BgYIARABGAmSBwEyoAcAsgcAuAcAwgcFNC0xLjHIB1E&sclient=gws-wiz-serp" target="_blank">
+                        
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRZ-7ukgPqnfUgOwXxlujHcATJVb7Syi6wQ4P9BJf0w2GUAX5yUvAqG-u0ffmo5NAJzKh1c" alt="poster">
+                        <h3>Doutor Estranho</h3>
+
+                    </a>
                     <p>2016</p>
                     <p>Fantasia/Ação</p>
                 </div>
                 
                 
                 <div class="card">
-                    <img src="https://gagueira.org.br/images/imagens-releases/o-jogo-da-imitacao-alan-turing.jpeg" alt="poster">
-                    <h3><a href="https://www.google.com/search?client=firefox-b-d&sa=X&sca_esv=eb6861a8f39dbc11&sxsrf=AE3TifPs-qsh8xqDLHrI0BvnCkHwx1DNIw:1761791169337&q=O+Jogo+da+Imita%C3%A7%C3%A3o&stick=H4sIAAAAAAAAAONgFuLUz9U3MDcwNTBX4gIxy4rjjSoKtFSzk630C1LzC3JSgVRRcX6eVUmZbnFGfnmxbmJeim5ufllmavEiVhF_Ba_89HyFlEQFz9zMksTDyw8vzgcANGjBSFcAAAA&ved=2ahUKEwj8l8TG78qQAxXnpZUCHU_EM98QgOQBegQIPhAY&biw=671&bih=643&dpr=1" target="_blank">O Jogo da Imitação</a></h3>
+                    <a href="https://www.google.com/search?q=O+Jogo+da+Imita%C3%A7%C3%A3o&client=firefox-b-d&sca_esv=eb6861a8f39dbc11&biw=671&bih=643&sxsrf=AE3TifMNW8Mj4dBo257Ox9qcyAd3EmjR0A%3A1761793632026&ei=YNYCafKyAbaJ5OUP2ujL0QY&ved=0ahUKEwjy4urc-MqQAxW2BLkGHVr0MmoQ4dUDCBM&uact=5&oq=O+Jogo+da+Imita%C3%A7%C3%A3o&gs_lp=Egxnd3Mtd2l6LXNlcnAiFE8gSm9nbyBkYSBJbWl0YcOnw6NvMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHMgQQABhHSIIMUPoIWPoIcAB4A5ABAJgBAKABAKoBALgBA8gBAPgBAZgCAqACIpgDAOIDBRIBMSBAiAYBkAYIkgcBMqAHALIHALgHAMIHAzMtMsgHGA&sclient=gws-wiz-serp" target="_blank">
+                        
+                        <img src="https://portalclubedeengenharia.org.br/wp-content/uploads/2024/07/01-10-o-jogo-da-imitacao.jpg" alt="poster">
+                        <h3>O Jogo da Imitação</h3>
+
+                    </a>
                     <p>2014</p>
                     <p>Thriller/Guerra</p>
                 </div>
                 
                 
                 <div class="card">
-                    <img src="https://upload.wikimedia.org/wikipedia/pt/4/49/Constantineposter.jpg" alt="poster">
-                    <h3><a href="https://www.google.com/search?client=firefox-b-d&sa=X&sca_esv=eb6861a8f39dbc11&sxsrf=AE3TifP9hHOjZkWo37enrw2bvSie_gkaVg:1761791357853&q=Constantine&stick=H4sIAAAAAAAAAONgFuLUz9U3MEozSslTAjNNMrINyrUkspOt9AtS8wtyUoFUUXF-nlVufllmavEiVm7n_LziksS8ksy8VADrC4JSQAAAAA&ved=2ahUKEwihnLag8MqQAxXTu5UCHfyVOOAQgOQBegQIMxAS&biw=602&bih=643&dpr=1#vhid=pneNxLr5qVU5HM:&vssid=l" target="_blank">Constantine</a></h3>
+                    <a href="https://www.google.com/search?q=Constantine&client=firefox-b-d&sca_esv=eb6861a8f39dbc11&biw=671&bih=643&sxsrf=AE3TifMeumCRn1VBf8ECCX6TJiuFQdTWHg%3A1761793661789&ei=fdYCabT7L9P25OUP346i0AI&ved=0ahUKEwj0rYPr-MqQAxVTO7kGHV-HCCoQ4dUDCBM&uact=5&oq=Constantine&gs_lp=Egxnd3Mtd2l6LXNlcnAiC0NvbnN0YW50aW5lMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMg0QABiABBiwAxhDGIoFMg0QABiABBiwAxhDGIoFMg0QABiABBiwAxhDGIoFMg0QABiABBiwAxhDGIoFSIsKUABYAHABeAGQAQCYAQCgAQCqAQC4AQPIAQCYAgGgAhyYAwCIBgGQBgySBwExoAcAsgcAuAcAwgcDMy0xyAcR&sclient=gws-wiz-serp" target="_blank">
+                        
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/4/49/Constantineposter.jpg" alt="poster">
+                        <h3>Constantine</h3>
+                    
+                    </a>
                     <p>2005</p>
                     <p>Terror/Ação</p>
                 </div>
                 
                 
                 <div class="card">
-                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQspe5I43c5BUP0SwGuJq_sxpkk609IMFJDhAhO45jNrsdOYto_RsQXjO5uB0Gl77OCgslw" alt="poster">
-                    <h3><a href="https://www.google.com/search?client=firefox-b-d&sa=X&sca_esv=eb6861a8f39dbc11&sxsrf=AE3TifNqgkcIYt3prahDW145HsrtFA1vlQ:1761791644792&q=John+Wick+3&stick=H4sIAAAAAAAAAONgFuLUz9U3MDRJT7NQ4tVP1zc0TDM0scgxNMnRkshOttIvSM0vyEkFUkXF-XlWufllmanFi1i5vfIz8hTCM5OzFYwBml98u0QAAAA&ved=2ahUKEwjd1p-p8cqQAxXdGbkGHTXuGDMQgOQBegQIMxAq&biw=594&bih=643&dpr=1" target="_blank">John Wick 3</a></h3>
+                    <a href="https://www.google.com/search?q=John+Wick+3&client=firefox-b-d&sca_esv=eb6861a8f39dbc11&biw=671&bih=643&sxsrf=AE3TifOnscVySMksCxXwVaON15zFbicK8A%3A1761793708106&ei=rNYCaciLBcW_5OUP__yiyAQ&ved=0ahUKEwjIkY2B-cqQAxXFH7kGHX--CEkQ4dUDCBM&uact=5&oq=John+Wick+3&gs_lp=Egxnd3Mtd2l6LXNlcnAiC0pvaG4gV2ljayAzMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMg0QABiABBiwAxhDGIoFMg0QABiABBiwAxhDGIoFMg0QABiABBiwAxhDGIoFMg0QABiABBiwAxhDGIoFSP4JUABYAHABeAGQAQCYAQCgAQCqAQC4AQPIAQCYAgGgAheYAwCIBgGQBgySBwExoAcAsgcAuAcAwgcDNC0xyAcU&sclient=gws-wiz-serp" target="_blank">
+                        
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQspe5I43c5BUP0SwGuJq_sxpkk609IMFJDhAhO45jNrsdOYto_RsQXjO5uB0Gl77OCgslw" alt="poster">
+                        <h3>John Wick 3</h3>
+                    
+                    </a>
                     <p>2019</p>
                     <p>Ação/Thriller</p>
                 </div>
                 
                 
                 <div class="card">
-                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSI-2Es8t1koLOoTNAuSHgF0cEqmZymApVC1ky052DpTfPZconEe-XVlEqhZ0iwpCQVVLi" alt="poster">
-                    <h3><a href="www.google.com/search?client=firefox-b-d&sa=X&sca_esv=eb6861a8f39dbc11&sxsrf=AE3TifOMfdvQKq-yXk8vMOeeZQoHHYfDSA:1761791437146&q=Matrix&stick=H4sIAAAAAAAAAONgFuLQz9U3MDG3TFICs8yTq4y0JLKTrfQLUvMLclKBVFFxfp5Vbn5ZZmrxIlY238SSoswKAPpiPyU5AAAA&ved=2ahUKEwjw8p3G8MqQAxXEHLkGHQCpEIQQgOQBegQIMhAM&biw=602&bih=643&dpr=1#vhid=WoFEW700lVI3vM&vssid=_3s0CaY7UB8mK5OUPh86yiAc_54" target="_blank">Matrix</a></h3>
+                    <a href="https://www.google.com/search?q=matrix&client=firefox-b-d&sca_esv=eb6861a8f39dbc11&biw=671&bih=643&sxsrf=AE3TifNyIlWwU3OzZ3Q0VkP3Qe3TDFflkQ%3A1761793750563&ei=1tYCabyVIoOc5OUP4OT42As&ved=0ahUKEwi82K2V-cqQAxUDDrkGHWAyHrsQ4dUDCBM&uact=5&oq=matrix&gs_lp=Egxnd3Mtd2l6LXNlcnAiBm1hdHJpeDINECMYgAQYJxiKBRjqAjINECMYgAQYJxiKBRjqAjINECMYgAQYJxiKBRjqAjINECMYgAQYJxiKBRjqAjINECMYgAQYJxiKBRjqAjINECMYgAQYJxiKBRjqAjINECMYgAQYJxiKBRjqAjITECMY8AUYgAQYJxjJAhiKBRjqAjINECMYgAQYJxiKBRjqAjIQECMY8AUYgAQYJxiKBRjqAkjGDVC0A1ivDHABeAGQAQCYAQCgAQCqAQC4AQPIAQD4AQGYAgGgAhSoAgqYAxTxBROP2P2nUn_EkgcBMaAHALIHALgHAMIHAzMtMcgHEA&sclient=gws-wiz-serp" target="_blank">
+                        
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSI-2Es8t1koLOoTNAuSHgF0cEqmZymApVC1ky052DpTfPZconEe-XVlEqhZ0iwpCQVVLi" alt="poster">
+                        <h3>Matrix</h3>
+                    
+                    </a>
                     <p>1999</p>
                     <p>Ação/Ficção científica</p>
                 </div>
@@ -124,7 +169,7 @@
 
             </table>
         </section>
-        <section id="#generos">
+        <section id="generos">
             <h2>Lista de Gêneros</h2>
             <ul>
                 <li>Ficção</li>
@@ -142,20 +187,23 @@
         </section>
 
         <section id="contato" class="contato">
-        <h2>Contato</h2>
-
-        <img src="logo-catalogo.png" alt="Logo do Catálogo de Filmes" class="contato-img" />
-
-        <p>
-            Este catálogo foi criado para reunir informações sobre os maiores clássicos e lançamentos do cinema.
-            Caso queira sugerir novos títulos, relatar algum erro ou entrar em contato com a equipe, use os links abaixo.
-        </p>
-
-        <ul class="social-list" aria-label="Canais de contato">
-            <li><a href="mailto:contato@catalogofilmes.com" class="social-btn">E-mail</a></li>
-            <li><a href="https://www.instagram.com/catalogofilmes" target="_blank" class="social-btn">Instagram</a></li>
-            <li><a href="https://www.youtube.com/@catalogofilmes" target="_blank" class="social-btn">YouTube</a></li>
-        </ul>
+        
+            <div>
+                <h2>Contato</h2>
+            
+                <p>
+                    Este catálogo foi criado para reunir informações sobre os maiores clássicos e lançamentos do cinema.
+                    Caso queira sugerir novos títulos, relatar algum erro ou entrar em contato com a equipe, use os links abaixo.
+                </p>
+                <nav>
+                    <a href="mailto:contato@catalogofilmes.com" class="social-btn">E-mail</a>
+                    <a href="https://www.instagram.com/lumierefilmes" target="_blank" class="social-btn">Instagram</a>
+                    <a href="https://www.youtube.com/@lumierefilmes" target="_blank" class="social-btn">YouTube</a>
+                </nav>
+            </div>
+            
+            <img src="logo.png" alt="Logo do Catálogo de Filmes" class="contato-img" />
+        
         </section>
     </main>
 
